@@ -3,31 +3,23 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta name="description" content="A brief description of the page's content"
+        <meta name="description" content="A brief description of the page's content">
         <meta charset="UTF-8">
-        <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>resume</title>
         <style>
-            h1 {color: black;}
-            p {
-                color: black;
-                font-size: 12px;
-                margin: 5px;
-            }
-            ul {
-                color:black;
-                padding: 10px 15px;
-                margin: 5px 10px 15px;
-            }
+
         </style>
         <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <script>
+            src="js/script.js"
+        </script>
     </head>
 
 
 <!-- Start main content -->
  
-
 <!-- Start header -->
 
 
@@ -46,63 +38,240 @@
                         href="#about/about.html">Work process</a></li>
                 </ul>
             </nav>
-            <button class="button">CONTACT</button>
+            <a href="about/about.html"> <button type="button" class="button">CONTACT</button> </a>
            </div>
+
+
+
 
            <div class="title-wrapper">
                 <h1 class="title">
                     ANASTASIA JONES
                 </h1>
                 <img class="title-wrapper-img" src="img/top.png" alt="banner image"/>
-                <p>
+                <div class="intro">
+                <p class="introduction">
                     Hi! I am a manual & automation QA engineer trying to survive in this stupid capitalistic world, travel places and not go insane. 
                 </p>
+                <a href="about/about.html"> <button id= button2 type="button" class="button">GET STARTED</button> </a>
+                </div>
            </div>
-        </header>
-
+        </header>        
+        
 
 
 <!-- End header -->
 
+<!-- Start projects -->
 
-
-
-   
+    <div class="projects-wrapper">
+        <nav id="projects-wrapper">
+            <h1 class="sub-title">(1) My works
+            </h1>
+            
         
-        
-        </div>
         <div class="projects">
-            <div class="project1">
-
+            
+            <div class="project">   
+                <img class="project1-img" src="img/project1.png" alt="Project 1 img"/>
+                <p class="project-text">PROJECT 01
+                </p>
+                <a href="about/about.html">  <button class="button" id="learn-more"> Learn more </button></a>
+            </div> 
+            
+            
+            <div class="project">
+                <img class="project2-img" src="img/project2.png" alt="Project 2 img"/>
+                <p class="project-text">PROJECT 02
+                </p>
+                <a href="about/about.html"> <button class="button" id="learn-more"> Learn more </button> </a>
             </div>
 
-            <div class="project2">
-                
+            
+            <div class="project">
+                <img class="project3-img" src="img/project3.png" alt="Project 3 img"/>
+                <p class="project-text">PROJECT 03
+                </p>
+                <a href="about/about.html"> <button class="button" id="learn-more"> Learn more </button> </a>
+            
             </div>
 
-            <div class="project3">
-                
-            </div>
-
+        
         </div>
+
+
+        </nav>
     </div>
 
+<!-- End projects -->
 
+<!-- Start bullet points -->
+    
+    <div class="text-wrapper">
+        <nav id="work-process-wrapper">
+            <h2 class="sub-title">(2) Work process
+            </h2>
+            <div class="bullet-points">
+
+
+                <div>
+                    <p id="briefing" class="parag">
+                        BRIEFING
+                    </p>
+                    <hr>
+                    <p class="description">
+                        Determining the desired functionality, agreeing on the price and deadlines
+                    </p>
+                </div>
+
+                 <div>
+                     <p id="analysis" class="parag">
+                          ANALYSIS
+                     </p>
+                       <hr>
+                     <p class="description">
+                         Analysis of the company, target audience and competitors
+                      </p>
+                 </div>
+                
+
+                 <div>
+                       <p id="prototype" class="parag">
+                           PROTOTYPE
+                        </p>
+                        <hr>
+                        <p class="description">
+                           Creating a layout and a site map with all pages and sections
+                      </p>
+                 </div>
+                  
+
+                 <div>
+                       <p id="design" class="parag">
+                          DESIGN
+                     </p>
+                      <hr>
+                      <p class="description">
+                          Designing all pages of the site for desktop and mobile devices
+                       </p>
+                 </div>
+                
+
+                 <div>
+                    <p id="layout" class="parag">
+                       LAYOUT AND SETUP
+                    </p>
+                    <hr>
+                     <p class="description">
+                    Layout design on Tilda, setting up animations, connecting the necessary features and services, adaptation for desktop and mobile devices
+                    </p>
+                 </div>
+
+
+
+               
+                 <div>
+                     <p id="briefing" class="parag">
+                         BRIEFING
+                     </p>
+                     <hr>
+                     <p class="description">
+                         Determining the desired functionality, agreeing on the price and deadlines
+                     </p>
+                 </div>
+
+            </div>
+        </nav>
+    </div>
+    
+<!-- End bullet points -->
 
 <!-- End main content -->
 
 
+<!-- Start footer -->
 
-
-
-
-
-            <h1>(1) My works</h1>
-            <p id="first-paragraph-here" class="parag" style="color: rgb(0, 93, 110);">
-                Paragpraph two
-            </p>
+    <div class="footer"> 
+        <nav id="footer">
+        <h3 class="sub-title">(3) Contact</h3>
+        <p id="get-in-touch" class="parag">
+        GET IN TOUCH
+        </p>
+        <div class="forms">
+            <div id="your-name">
+                <p class="form-names">
+                Your name:
+                </p>
+                <form class="form" action="/url" method="GET">
+                    <input type="text">
+                </form>
+            </div>
+            <div id="email">
+                <p class="form-names">
+                Your email:
+                </p>
+                <form class="form" action="/url" method="GET">
+                    <input type="email">
+                </form>
+            </div>
         </div>
-        <a style="color: gray" href="about/about.html"><button>GET STARTED</button></a>
+
+
+
+       
+        <!-- start social media and button -->
+
+        <div class="social-media">
+            <a href="about/about.html"> <button id="bottom-button" class="button">GET STARTED</button> </a>
+                <div id="social-media-list">
+                <div id="telegram">
+                    <a href="telegram.com"><img src="img/telegram.png">
+                    </a>
+
+                </div>
+
+
+                <div id="whatsapp">
+                    <a href="whatsapp.com"><img src="img/WhatsApp.png">
+                    </a>
+                </div>
+
+
+                <div id="instagram">
+                    <a href="instagram.com"><img src="img/instagram.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+ <!-- end social media -->
+
+        
+    </nav>  
+    </div>
+
+
+<!-- end footer -->
+
+
+
+
+
+         <!-- main content wrapper end -->
+        
+    <!-- End main content -->
+
+
+
+        
+
     </div>
     </body>
+
+
+    
+
 </html>
+
+
