@@ -98,11 +98,13 @@ nav-wrapper {
   border: 1px solid white;
 }
 
-.logo, #top-nav, .button {
+#logo, #top-nav, .button {
   border: 1px solid white;
 }
-.logo {
+#logo {
   margin: 10px;
+  padding: 15px;
+  font-size: 14px;
 }
 
 /* END GENERAL */
@@ -158,8 +160,8 @@ ul li {
 
 }
 
-.title {
-  width: 90%;
+#title {
+  width: 100%;
   font-size: 95px;
   display: flex;
   object-fit: contain;
@@ -296,11 +298,10 @@ margin: 7% 0% 5% 0%;
 
 
 
+#get-in-touch {
+  margin: 15px 0px;
 
-
-
-
-
+}
 
 
 #bottom-button {
@@ -326,11 +327,12 @@ margin: 7% 0% 5% 0%;
   border-radius: 10px;
 }
 
+.submit {
+  margin: 10px;
+}
 
-/* justify-content: space-between;
-text-align: left;
-justify-content: space-evenly;
-object-fit: contain; */
+
+
 
 .social-media {
   width: 100%;
@@ -340,13 +342,9 @@ object-fit: contain; */
 
 }
 
-/*     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    text-align: left; */
 
 #social-media-list {
-/* can't align to right */
+
 
   list-style: none;
   padding: 0;

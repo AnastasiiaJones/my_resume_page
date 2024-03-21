@@ -12,9 +12,10 @@
 
         </style>
         <link rel="stylesheet" type="text/css" href="styles/style.css">
-        <script>
-            src="js/script.js"
-        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        
+
     </head>
 
 
@@ -27,7 +28,7 @@
         <div class="main-content-wrapper">
         <header>
             <div class="nav-wrapper">
-                <div class="logo">@anastasiia_jones</div>
+                <div id="logo">@anastasiia_jones</div>
                 <nav id="top-nav">
                     <ul>
                         <li><a
@@ -45,7 +46,7 @@
 
 
            <div class="title-wrapper">
-                <h1 class="title">
+                <h1 id="title">
                     ANASTASIA JONES
                 </h1>
                 <img class="title-wrapper-img" src="img/top.png" alt="banner image"/>
@@ -194,26 +195,28 @@
     <div class="footer"> 
         <nav id="footer">
         <h3 class="sub-title">(3) Contact</h3>
+
         <p id="get-in-touch" class="parag">
         GET IN TOUCH
         </p>
-        <div class="forms">
-            <div id="your-name">
-                <p class="form-names">
-                Your name:
-                </p>
-                <form class="form" action="/url" method="GET">
-                    <input type="text">
-                </form>
+
+        <div class="form">
+
+             <form id="contactform" class="form" method="GET">
+
+             <div>
+                <name id="your-name" class="form-names">Name:</name>
+                <input type="email" id="nameinput" placeholder="Enter Your Name">
+             </div>
+
+            <div>
+                <name class="form-names">Email:</name>
+                <input type="email" id="emailinput" placeholder="Enter Your Email">
+                <button type="submit" class="submit">Submit</button>    
             </div>
-            <div id="email">
-                <p class="form-names">
-                Your email:
-                </p>
-                <form class="form" action="/url" method="GET">
-                    <input type="email">
-                </form>
-            </div>
+
+            <div id="errormessage"></div>
+            </form>
         </div>
 
 
